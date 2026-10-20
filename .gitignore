@@ -1,0 +1,28 @@
+# ChampSim generated build files
+ChampSim/bin/
+ChampSim/.csconfig/
+ChampSim/_configuration.mk
+ChampSim/absolute.options
+**/compile_commands.json
+*.o
+*.d
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.cache/
+.vscode/
+.idea/
+
+# Generated traces and tracing binaries
+*.champsim
+*.champsim.gz
+*.champsim.xz
+*.champsimtrace
+*.champsimtrace.gz
+*.champsimtrace.xz
+ChampSim/tracer/pin/obj-*/
+
+# Scratch files
+tmp/
+*.log
